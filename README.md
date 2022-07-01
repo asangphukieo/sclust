@@ -6,12 +6,12 @@ doi:10.1038/nprot.2018.033
 ## Usage
 ### 1. Pull docker image
 ```
-
+docker pull asangphukieo/sclust:latest
 ```
 
 ### 2. Create docker container and mount your working folder (-v) 
 ```
-docker run -v /home/HDD:/home/HDD -it ubuntu:16.04 bash
+docker run -v /home/HDD:/home/HDD -it asangphukieo/sclust:latest bash
 ```
 
 

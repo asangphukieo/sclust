@@ -4,18 +4,18 @@ Copy-number analysis and inference of subclonal populations in cancer genomes us
 doi:10.1038/nprot.2018.033
 
 ## Usage
-###1. Pull docker image
+### 1. Pull docker image
 ```
 
 ```
 
-###2. Create docker container and mount your working folder (-v) 
+### 2. Create docker container and mount your working folder (-v) 
 ```
 docker run -v /home/HDD:/home/HDD -it ubuntu:16.04 bash
 ```
 
 
-###3. Run Sclust inside working containing 
+### 3. Run Sclust inside working containing 
 ```
 # Set path to sample bam files and vcf files #
 sample_name="OS0130_Tissue"
@@ -77,4 +77,4 @@ ${sclust} cluster -i ${dir_out}/${sample_name} -lambda ${lambda} -o ${dir_out}/$
 
 ```
 
-5. Check output in "Sclust_output_${sample_name}" folder
+### 4. Check output in "Sclust_output_${sample_name}" folder

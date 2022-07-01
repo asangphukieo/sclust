@@ -11,7 +11,7 @@ docker pull asangphukieo/sclust:latest
 
 ### 2. Create docker container and mount your working folder (-v) 
 ```
-docker run -v /home/HDD:/home/HDD -it asangphukieo/sclust:latest bash
+docker run -v /home:/home -it asangphukieo/sclust:latest bash
 ```
 
 

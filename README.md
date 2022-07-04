@@ -6,7 +6,7 @@ doi:10.1038/nprot.2018.033
 ## Usage
 ### 1. Pull docker image
 ```
-docker pull asangphukieo/sclust:latest
+docker pull asangphukieo/sclust
 ```
 
 ### 2. Create docker container and mount your working folder (-v) 
